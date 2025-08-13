@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header className="header">
         <div className="logo">
-          <h1>TC Booking App</h1>
+          <h1>TC</h1>
         </div>
         <nav className="nav">
           <div className="nav-dropdown">
