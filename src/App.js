@@ -11,16 +11,46 @@ function App() {
         </div>
         <nav className="nav">
           <div className="nav-dropdown">
-            <button className="dropbtn">Solutions</button>
+            <button className="dropbtn">Overview</button>
             <div className="dropdown-content">
-              <button>Small Business</button>
-              <button>Enterprise</button>
+              <p className="description-text">TC is a B2B transport aggregator providing seamless logistics solutions for businesses across India.</p>
             </div>
           </div>
-          <button className="nav-link">Pricing</button>
-          <button className="nav-link">Contact Us</button>
+          <div className="nav-dropdown">
+            <button className="dropbtn">Solutions</button>
+            <div className="dropdown-content">
+              <button>SMEs</button>
+              <button>Enterprise</button>
+              <button>Manufacturing Unit</button>
+              <button>Traders</button>
+            </div>
+          </div>
+          <div className="nav-dropdown">
+            <button className="dropbtn">Pricing</button>
+            <div className="dropdown-content">
+              <button>Flexible Plans</button>
+              <button>Enterprise Plans</button>
+            </div>
+          </div>
+          <div className="nav-dropdown">
+            <button className="dropbtn">Customer support</button>
+            <div className="dropdown-content">
+              <button>FAQ</button>
+              <button>Contact Support</button>
+            </div>
+          </div>
         </nav>
-        <div className="auth-buttons">
+        <div className="auth-and-lang-buttons">
+          <div className="lang-dropdown">
+            <button className="dropbtn"><FaGlobe /> EN</button>
+            <div className="dropdown-content">
+              <button>हिंदी</button>
+              <button>తెలుగు</button>
+              <button>தமிழ்</button>
+              <button>മലയാളം</button>
+              <button>ಕನ್ನಡ</button>
+            </div>
+          </div>
           <button className="auth-btn">Log In</button>
           <button className="auth-btn get-started">Get Started</button>
         </div>
