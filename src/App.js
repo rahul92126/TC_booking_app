@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="app-container">
       <header className="main-header">
-        <h1 className="logo">TC</h1>
+        <h1 className="logo">Tarmac</h1>
         <div className="auth-buttons">
           <a href="#" className="auth-link">Login</a>
           <a href="#" className="auth-link">Sign Up</a>
