@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import truckImage from './assets/truck-on-highway.jpg';
+import { FaGlobe } from 'react-icons/fa';
 
 function App() {
   return (
