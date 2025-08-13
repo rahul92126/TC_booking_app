@@ -7,18 +7,18 @@ function App() {
     <div className="App">
       <header className="header">
         <div className="logo">
-          <h1>TC</h1>
+          <h1>TC Booking App</h1>
         </div>
         <nav className="nav">
           <div className="nav-dropdown">
             <button className="dropbtn">Solutions</button>
             <div className="dropdown-content">
-              <a href="#">Small Business</a>
-              <a href="#">Enterprise</a>
+              <button>Small Business</button>
+              <button>Enterprise</button>
             </div>
           </div>
-          <a href="#" className="nav-link">Pricing</a>
-          <a href="#" className="nav-link">Contact Us</a>
+          <button className="nav-link">Pricing</button>
+          <button className="nav-link">Contact Us</button>
         </nav>
         <div className="auth-buttons">
           <button className="auth-btn">Log In</button>
