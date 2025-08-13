@@ -10,8 +10,8 @@ function App() {
           <h1>TC</h1>
         </div>
         <nav className="nav">
-          <a href="#" className="nav-link">Log In</a>
-          <a href="#" className="nav-link">Sign Up</a>
+          <button className="nav-link">Log In</button>
+          <button className="nav-link">Sign Up</button>
         </nav>
       </header>
 
