@@ -7,8 +7,8 @@ function App() {
       <header className="main-header">
         <h1 className="logo">Tarmac</h1>
         <div className="auth-buttons">
-          <a href="#" className="auth-link">Login</a>
-          <a href="#" className="auth-link">Sign Up</a>
+          <button className="auth-link">Log In</button>
+          <button className="auth-link">Sign Up</button>
         </div>
       </header>
 
