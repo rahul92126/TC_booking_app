@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="app-container">
       <header className="main-header">
-        <h1 className="logo">Tarmac</h1>
+        <h1 className="logo">TC</h1>
         <div className="auth-buttons">
           <button className="auth-link">Log In</button>
           <button className="auth-link">Sign Up</button>
@@ -71,7 +71,7 @@ function App() {
       </section>
 
       <footer className="main-footer">
-        <p>&copy; 2026 Tarmac. All rights reserved.</p>
+        <p>&copy; 2025 TC. All rights reserved.</p>
       </footer>
     </div>
   );
