@@ -71,7 +71,7 @@ function App() {
       </section>
 
       <footer className="main-footer">
-        <p>&copy; 2025 Tarmac. All rights reserved.</p>
+        <p>&copy; 2026 Tarmac. All rights reserved.</p>
       </footer>
     </div>
   );
