@@ -1,77 +1,62 @@
 import React from 'react';
 import './App.css';
+import truckImage from './assets/truck-on-highway.jpg';
 
 function App() {
   return (
-    <div className="app-container">
-      <header className="main-header">
-        <h1 className="logo">TC</h1>
-        <div className="auth-buttons">
-          <button className="auth-link">Log In</button>
-          <button className="auth-link">Sign Up</button>
+    <div className="App">
+      <header className="header">
+        <div className="logo">
+          <h1>TC</h1>
         </div>
+        <nav className="nav">
+          <a href="#" className="nav-link">Log In</a>
+          <a href="#" className="nav-link">Sign Up</a>
+        </nav>
       </header>
 
-      <main className="hero-section">
-        <div className="hero-content">
-          <h1>Effortless Truck Booking for Your Business</h1>
-          <p>Connecting small businesses and manufacturing units with reliable transport services. Get a real-time quote in minutes.</p>
-          <button className="cta-button">Get a Quote</button>
-        </div>
+      <main>
+        <section className="hero-section">
+          <div className="hero-content">
+            <h1>The best of TC for your business</h1>
+            <p>TC for Business gives your organization more control, deeper insights, and features built for enterprise users. Manage and track business transport on one dashboard.</p>
+            <div className="cta-buttons">
+              <button className="primary-btn">How to get started</button>
+              <button className="secondary-btn">Check out our solutions</button>
+            </div>
+          </div>
+          <div className="hero-image">
+            {/* You will place your image here */}
+            <img src={truckImage} alt="Transportation truck on a highway" />
+          </div>
+        </section>
+
+        <section className="features-section">
+          <h2>Designed for what your business needs</h2>
+          <div className="features-grid">
+            <div className="feature-card">
+              <img src="path/to/icon1.svg" alt="Icon 1" />
+              <h3>Feature Title 1</h3>
+              <p>Description of a key feature for your business. Explain how it solves a problem or adds value.</p>
+            </div>
+            <div className="feature-card">
+              <img src="path/to/icon2.svg" alt="Icon 2" />
+              <h3>Feature Title 2</h3>
+              <p>Description of another key feature, highlighting its benefits and purpose.</p>
+            </div>
+            <div className="feature-card">
+              <img src="path/to/icon3.svg" alt="Icon 3" />
+              <h3>Feature Title 3</h3>
+              <p>Description of a third feature that makes your service unique and valuable to clients.</p>
+            </div>
+          </div>
+        </section>
+
+        {/* You can add more sections here */}
       </main>
-
-      <section className="benefits-section">
-        <div className="benefit-card">
-          <span className="benefit-icon">🔒</span>
-          <h3>Secure & Reliable</h3>
-          <p>Book with trusted carriers and ensure your goods are transported safely and on time.</p>
-        </div>
-        <div className="benefit-card">
-          <span className="benefit-icon">💸</span>
-          <h3>Transparent Pricing</h3>
-          <p>Receive competitive quotes with a clear breakdown of all costs. No hidden fees.</p>
-        </div>
-        <div className="benefit-card">
-          <span className="benefit-icon">🗺️</span>
-          <h3>Real-Time Tracking</h3>
-          <p>Track your shipment from pickup to delivery with our advanced logistics technology.</p>
-        </div>
-      </section>
-
-      <section className="booking-section">
-        <h2>Book a Truck</h2>
-        <form className="booking-form">
-          <div className="form-group">
-            <label htmlFor="source">Source Location</label>
-            <input type="text" id="source" placeholder="Enter source location" />
-          </div>
-          <div className="form-group">
-            <label htmlFor="destination">Destination Location</label>
-            <input type="text" id="destination" placeholder="Enter destination location" />
-          </div>
-          <div className="form-group">
-            <label htmlFor="materialType">Material Type</label>
-            <input type="text" id="materialType" placeholder="e.g., Industrial Goods" />
-          </div>
-          <div className="form-group">
-            <label htmlFor="weight">Weight (in kg)</label>
-            <input type="number" id="weight" placeholder="Enter weight" />
-          </div>
-          <div className="form-group">
-            <label htmlFor="vehicleType">Vehicle Choice</label>
-            <select id="vehicleType">
-              <option value="">-- Select a vehicle --</option>
-              <option value="pickup">Pickup Truck</option>
-              <option value="mini-truck">Mini Truck</option>
-              <option value="large-truck">Large Truck</option>
-            </select>
-          </div>
-          <button type="submit" className="submit-button">Get Quotation</button>
-        </form>
-      </section>
-
-      <footer className="main-footer">
-        <p>&copy; 2025 TC. All rights reserved.</p>
+      
+      <footer className="footer">
+        <p>© 2025 TC. All rights reserved.</p>
       </footer>
     </div>
   );
