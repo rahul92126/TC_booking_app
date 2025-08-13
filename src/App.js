@@ -10,9 +10,20 @@ function App() {
           <h1>TC</h1>
         </div>
         <nav className="nav">
-          <button className="nav-link">Log In</button>
-          <button className="nav-link">Sign Up</button>
+          <div className="nav-dropdown">
+            <button className="dropbtn">Solutions</button>
+            <div className="dropdown-content">
+              <a href="#">Small Business</a>
+              <a href="#">Enterprise</a>
+            </div>
+          </div>
+          <a href="#" className="nav-link">Pricing</a>
+          <a href="#" className="nav-link">Contact Us</a>
         </nav>
+        <div className="auth-buttons">
+          <button className="auth-btn">Log In</button>
+          <button className="auth-btn get-started">Get Started</button>
+        </div>
       </header>
 
       <main>
