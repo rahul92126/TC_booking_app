@@ -78,6 +78,96 @@ body {
   max-width: 600px;
   height: auto;
 }
+/* --- Global Platform Section --- */
+.global-platform-section {
+  text-align: center;
+  background-color: #000;
+  padding: 50px 20px;
+  border-bottom: 1px solid #222;
+}
+
+.global-platform-section p {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* --- Solutions Section --- */
+.solutions-section {
+  padding: 80px 50px;
+  background-color: #0e0e0e;
+  text-align: center;
+}
+
+.solutions-section h2 {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.solutions-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  text-align: left;
+}
+
+.solution-card {
+  background-color: #1a1a1a;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.solution-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* --- Why TC Section --- */
+.why-tc-section {
+  padding: 80px 50px;
+  background-color: #000;
+  text-align: center;
+}
+
+.why-tc-section h2 {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.benefits-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  text-align: left;
+}
+
+.benefit-card {
+  background-color: #1a1a1a;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.benefit-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* --- CTA Section --- */
+.cta-section {
+  padding: 80px 50px;
+  background-color: #0e0e0e;
+  text-align: center;
+}
+
+.cta-section h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.cta-section p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
 
 /* --- Features Section Styles --- */
 .features-section {

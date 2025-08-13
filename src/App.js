@@ -30,7 +30,28 @@ function App() {
             <img src={truckImage} alt="Transportation truck on a highway" />
           </div>
         </section>
-
+        <section className="global-platform-section">
+          <div className="platform-content">
+            <p>A B2B platform built on India's largest transport network</p>
+          </div>
+        </section>
+        <section className="solutions-section">
+          <h2>Solutions that meet your business needs</h2>
+          <div className="solutions-grid">
+            <div className="solution-card">
+              <h3>Business trips and travel</h3>
+              <p>Give your employees the freedom to travel for work while you stay in control with set spend limits.</p>
+            </div>
+            <div className="solution-card">
+              <h3>Meal programs</h3>
+              <p>Offer your employees the flexibility to order meals while working from home or in the office.</p>
+            </div>
+            <div className="solution-card">
+              <h3>Employee benefits</h3>
+              <p>Attract and retain talent with transport solutions that benefit your employees.</p>
+            </div>
+          </div>
+        </section>
         <section className="features-section">
           <h2>Designed for what your business needs</h2>
           <div className="features-grid">
@@ -51,6 +72,37 @@ function App() {
             </div>
           </div>
         </section>
+        <section className="why-tc-section">
+          <h2>Why businesses choose TC</h2>
+          <div className="benefits-container">
+            <div className="benefit-card">
+              <div className="benefit-content">
+                <h3>Simplified transport booking</h3>
+                <p>Manage all your business travel on one platform.</p>
+              </div>
+            </div>
+            <div className="benefit-card">
+              <div className="benefit-content">
+                <h3>Full control of your expenses</h3>
+                <p>Set spending limits and keep track of all transport costs in real-time.</p>
+              </div>
+            </div>
+            <div className="benefit-card">
+              <div className="benefit-content">
+                <h3>Dedicated customer support</h3>
+                <p>Get 24/7 support from a team of experts ready to help you.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="cta-section">
+          <div className="cta-content">
+            <h2>Ready to get started?</h2>
+            <p>Sign up in minutes and start managing your business transport today.</p>
+            <button className="primary-btn">Sign up now</button>
+          </div>
+        </section>
+
 
         {/* You can add more sections here */}
       </main>
