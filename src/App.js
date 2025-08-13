@@ -23,6 +23,7 @@ function App() {
               <button>Enterprise</button>
               <button>Manufacturing Unit</button>
               <button>Traders</button>
+              <button>Traders</button>
             </div>
           </div>
           <div className="nav-dropdown">
