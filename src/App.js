@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header className="header">
         <div className="logo">
-          <h1>TC</h1>
+          <h1>TruckCart</h1>
         </div>
         <nav className="nav">
           <div className="nav-dropdown">
@@ -38,7 +38,7 @@ function App() {
             <button className="dropbtn">Customer support</button>
             <div className="dropdown-content">
               <button>FAQ</button>
-              <button>Contact Support</button>
+              <button>Contact Us</button>
             </div>
           </div>
         </nav>
@@ -61,7 +61,7 @@ function App() {
       <main>
         <section className="hero-section">
           <div className="hero-content">
-            <h1>The best of TC for your business</h1>
+            <h1>TruckCart for your business</h1>
             <p>TC for Business gives your organization more control, deeper insights, and features built for enterprise users. Manage and track business transport on one dashboard.</p>
             <div className="cta-buttons">
               <button className="primary-btn">How to get started</button>
