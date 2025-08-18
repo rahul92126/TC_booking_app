@@ -82,16 +82,16 @@ function App() {
           <h2>Solutions that meet your business needs</h2>
           <div className="solutions-grid">
             <div className="solution-card">
-              <h3>Business trips and travel</h3>
-              <p>Give your employees the freedom to travel for work while you stay in control with set spend limits.</p>
+              <h3>Ease of finding tarnsport services</h3>
+              <p>Transport your goods with ease.</p>
             </div>
             <div className="solution-card">
-              <h3>Meal programs</h3>
-              <p>Offer your employees the flexibility to order meals while working from home or in the office.</p>
+              <h3>Explore various options</h3>
+              <p>Eliminate single vendor agreements and explore various transport options in the perimeter </p>
             </div>
             <div className="solution-card">
-              <h3>Employee benefits</h3>
-              <p>Attract and retain talent with transport solutions that benefit your employees.</p>
+              <h3>Countless benfits & Protection</h3>
+              <p>Get a good price quotation by not compromising with the services and an added insurance protection for your goods.</p>
             </div>
           </div>
         </section>
