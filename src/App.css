@@ -237,6 +237,11 @@ body {
   background-color: #1a1a1a;
   padding: 40px;
   border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.solution-card:hover {
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.4);
 }
 
 .solution-card h3 {
@@ -330,6 +335,11 @@ body {
   padding: 30px;
   border-radius: 10px;
   text-align: left;
+  transition: box-shadow 0.3s ease;
+}
+
+.feature-card:hover{
+  box-shadow: 0 0 20px rgba(245, 247, 245, 0.4);
 }
 
 .feature-card img {
